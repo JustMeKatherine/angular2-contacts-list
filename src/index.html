@@ -12,18 +12,20 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <angular2-contacts-list-app>Loading...</angular2-contacts-list-app>
+  <typeofweb-app>Loading...</typeofweb-app>
 
-  
+
 
     {{#each scripts.polyfills}}<script src="{{.}}"></script>{{/each}}
+    <script src="https://cdn.rawgit.com/blueimp/JavaScript-MD5/d92d988de9e3cb20741b9d72717dfacf2db993bc/js/md5.js"></script>
+
     <script>
       System.import('system-config.js').then(function () {
         System.import('main');
       }).catch(console.error.bind(console));
     </script>
 
-  
+
 
 
 

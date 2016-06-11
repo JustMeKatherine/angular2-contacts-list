@@ -1,0 +1,11 @@
+:host typeofweb-app {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+}
+
+typeofweb-contacts-list {
+  max-width: 300px;
+  display: block;
+}
